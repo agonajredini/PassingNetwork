@@ -34,10 +34,16 @@ df_merged['player_name'] = df_merged['player_name'].replace(name_replacements)
 df_merged['pass_recipient_name'] = df_merged['pass_recipient_name'].replace(name_replacements)
 df_merged.sort_values(by='team_name', inplace=True)
 
+
+##Uncomment the following lines to get the passing network of other teams rather than Manchester United
 #hteam = df_merged['team_name'].iloc[0]
 #ateam = df_merged['team_name'].iloc[-1]
+
+##Comment the following lines to get the passing network of other teams rather than Manchester United
 ateam = "Manchester United"
 hteam = df_merged[df_merged['team_name'] != ateam]['team_name'].iloc[0]
+
+
 
 df_away_pass = df_merged[df_merged['team_name'] == ateam]
 
