@@ -1,16 +1,16 @@
 # Football Passing Network Visualization
 
-This repository contains a Python script that visualizes a football team's passing network based on match event data. The script processes pass data, analyzes player movements, and creates a passing network visualization on a soccer pitch. Player positions, passing connections, and the frequency of passes are displayed with varying line thickness, using libraries such as `mplsoccer`, `pandas`, and `matplotlib`.
+This repository contains a Python script that visualizes a football team's passing network based on match event data. The script processes pass data, analyzes player movements, and creates a passing network visualization on a football pitch. Player positions, passing connections, and the frequency of passes are displayed with varying line thickness, using libraries such as `mplsoccer`, `pandas`, and `matplotlib`.
 
 ## Features
 - Processes pass events from football match data.
 - Cleans and merges player data (including jersey numbers and names).
 - Analyzes player participation and selects starting players.
-- Visualizes player positions, passing connections, and pass frequency on a soccer pitch.
+- Visualizes player positions, passing connections, and pass frequency on a football pitch.
 - Customizable visual appearance with pitch color, player names, and jersey numbers.
 
 ## Requirements
-- `mplsoccer`: for soccer-specific plotting and data processing.
+- `mplsoccer`: for football-specific plotting and data processing.
 - `pandas`: for data manipulation and analysis.
 - `numpy`: for numerical calculations.
 - `matplotlib`: for creating visualizations.
@@ -46,7 +46,7 @@ pip install mplsoccer pandas numpy matplotlib
 5. Run the script to generate a passing network visualization for your team.
 
 ## Example Output
-The output will display a soccer pitch with:
+The output will display a football pitch with:
 - Players represented by scatter points.
 - Pass connections represented by lines, with line thickness proportional to the number of passes between players.
 - Player names and jersey numbers annotated next to their positions.
@@ -55,6 +55,6 @@ The output will display a soccer pitch with:
 This project is licensed under the MIT License.
 
 ## Acknowledgements
-- `mplsoccer`: A library for soccer-specific data visualization.
+- `mplsoccer`: A library for football-specific data visualization.
 - `matplotlib`: A popular plotting library used for creating visualizations.
 - `pandas` and `numpy`: Libraries for data manipulation and analysis.
