@@ -50,6 +50,7 @@ The output will display a football pitch with:
 - Players represented by scatter points.
 - Pass connections represented by lines, with line thickness proportional to the number of passes between players.
 - Player names and jersey numbers annotated next to their positions.
+![passingnetwork](https://github.com/user-attachments/assets/c613bc43-f64e-4c62-a831-c29505ab7d18)
 
 ## License
 This project is licensed under the MIT License.
